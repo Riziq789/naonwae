@@ -1,0 +1,101 @@
+body{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   user-select: none;
+   background-image:url(aa.jpg);
+   }
+   
+   
+   .container{
+   margin-left: 1.8em;
+   padding: 20px;
+   border-radius: 8px;
+   background-image:url(c.jpg);
+   box-shadow: 13px 13px 20px #FF8C00,
+    -13px -13px -13px red;
+   }
+   .content{
+   width: 100%;
+   margin-top: 1.7em;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction:column;
+   }
+   
+   .row button {
+   width: 60px;
+   height: 30px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+   margin: 5px;
+   border-radius: 4px;
+   transition: .1s;
+   box-shadow: 5px 5px 8px #FF8C00,
+    -5px -5px 8px red;
+   }
+   
+   .row button:hover{
+   box-shadow:inset 5px 5px 8px rgba(16, 16, 16, .1),
+   inset -5px -5px 8px #FF8C00;  /*warna sorotan tombol*/
+   background: #FF8C00;
+   }
+   
+   .display #screen{
+   margin-bottom:.5em;
+   width:auto;
+   height:70px;
+   font-size:35px;
+   outline:none;
+   border:none;
+   text-align:right;
+   padding-right:.5em;
+   background:#FF8C00;   /*warna layar hitung*/
+   border-radius:6px;
+   box-shadow:inset 8px 8px 8px #cbced1,
+   inset -8px-8px 8px#ffffff;
+   }
+   
+   #eval{
+   background:#FF8C00; /*warna =*/
+   color:#000000;
+   }
+   
+   #eval:hover{
+   box-shadow:inset 5px 5px 8px #00ace6,
+   inset -5px -5px 8px #00ace6;
+   }
+   
+   #ac{
+   background:#FF8C00; /*warna ac*/
+   color:#000000;
+   }
+   
+   #ac:hover{
+   box-shadow:inset 5px 5px 8px #FF8C00,
+   inset -5px -5px 8px #FF8C00;
+   }
+   
+   #ce{
+   background:#FF8C00; /*warna ce*/
+   color:#000000;
+   }
+   
+   #ce:hover{
+   box-shadow:inset 5px 5px 8px#e60073,
+   inset -5px -5px 8px#3399;
+   }
+   
+   .btn{
+   background:#000000; /*warna tombol*/
+   color:#FFFFFF;
+}
+.onClick{
+background:#0000FF;
+color:#FFFFFF;
+}
